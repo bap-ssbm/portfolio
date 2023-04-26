@@ -1,0 +1,15 @@
+.hover-btn-effect>div {
+  
+    transform: scaleX(0);
+  
+  }
+@media (min-width: 1024px) {
+    
+  
+    .hover-btn-effect:hover>div {
+      transform: scaleX(1);
+
+    }
+  }
+
+  
