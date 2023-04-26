@@ -7,7 +7,7 @@ interface pageProps {
 
 const page: FC<pageProps> = ({ }) => {
     return (
-        <AboutTemplate title='OSHIMOTO.NET' src='/images/portfolio/personal/personal/final_portfolio.jpg' github='https://github.com/bap-ssbm/oshimoto.net' link='https://oshimoto-net.vercel.app/'>
+        <AboutTemplate title='OSHIMOTO.NET' src='/images/portfolio/personal/personal/final_portfolio.jpg' github='https://github.com/bap-ssbm/portfolio' link='https://portfolio-delta-seven-78.vercel.app/'>
             <div className='text-center'>
                 <h3 className='text-[16px] font-Oswald underline mb-4'>
                     Tech Stack
