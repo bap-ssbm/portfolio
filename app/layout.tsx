@@ -28,7 +28,7 @@ export default function RootLayout({
           
         <Navbar />
         <div id='main-wrapper' className='lg:w-[90%] max-w-[1920px] mx-auto lg:border border-gray-700 dark:border-gray-400'>
-          <div className='p-20'>
+          <div className='px-[2%] lg:p-20'>
 
             {children}
 
