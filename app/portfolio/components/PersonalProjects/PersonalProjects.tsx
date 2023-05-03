@@ -16,12 +16,16 @@ const PersonalProjects: FC<projectsProps> = ({ }) => {
 
       <div className='flex flex-col lg:flex-row gap-10'>
         <div className=''>
-          <h3 className='text-[14px] italic mb-5'>professional photographer's portfolio</h3>
+          <h3 className='text-[14px] italic mb-5'>Professional photographer's portfolio</h3>
           <PortfolioImgWrapper href='/portfolio/oshimoto-net' src='/images/portfolio/personal/oshimoto.net.jpg' />
         </div>
         <div className=''>
-          <h3 className='text-[14px] italic mb-5'>personal portfolio (this current website)</h3>
+          <h3 className='text-[14px] italic mb-5'>Personal portfolio (this current website)</h3>
           <PortfolioImgWrapper href='/portfolio/portfolio' src='/images/portfolio/personal/personal/final_portfolio.jpg' />
+        </div>
+        <div className=''>
+          <h3 className='text-[14px] italic mb-5'>Professional Restuarant's Website</h3>
+          <PortfolioImgWrapper href='/portfolio/seta-tei' src='/images/portfolio/personal/seta-tei.jpg'/>
         </div>
         
 

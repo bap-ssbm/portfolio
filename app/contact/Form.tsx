@@ -133,7 +133,7 @@ const Form: FC<FormProps> = ({ }) => {
       </Button>
       {msg&&<p className='tracking-[2px] text-[18px]'>{msg}</p>}
       <ReCAPTCHA
-        sitekey="6LcdWL8lAAAAAFJdg_JrOgcqb52F-5mbNuqRBg0K"
+        sitekey="6LcVPbElAAAAADdNbNT9v0m1xqAuH7K6RGgmOsPi"
         onChange={captchaChange}
         onExpired={()=>setCaptchaComplete(false)}
       />
