@@ -25,7 +25,7 @@ const PersonalProjects: FC<projectsProps> = ({ }) => {
         </div>
         <div className=''>
           <h3 className='text-[14px] italic mb-5'>Professional Restuarant's Website</h3>
-          <PortfolioImgWrapper href='/portfolio/seta-tei' src='/images/portfolio/personal/seta-tei.jpg' />
+          <PortfolioImgWrapper href='/portfolio/seta-tei' src='/images/portfolio/personal/new-setatei.jpg' />
         </div>
         <div className=''>
           <h3 className='text-[14px] italic mb-5'>
