@@ -8,7 +8,7 @@ interface pageProps {
 const page: FC<pageProps> = ({ }) => {
     return (
         <AboutTemplate title='Restaurant Page / Hayama Seta-tei'
-            src='/images/portfolio/personal/seta-tei.jpg'
+            src='/images/portfolio/personal/new-setatei.jpg'
             github='https://github.com/bap-ssbm/seta-react-draft'
             link='https://seta-react-draft.vercel.app/'>
             <div className='text-center'>
