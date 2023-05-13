@@ -15,8 +15,7 @@ const ProjectsWrapper: FC<ProjectsWrapperProps> = ({ }) => {
                 <PortfolioImgWrapper href='/portfolio/minimalistic-space-poster' src='/images/portfolio/personal/spa/space-posters-preview.jpg' />
                 <PortfolioImgWrapper href='/portfolio/oshimoto-net' src='/images/portfolio/personal/oshimoto.net.jpg' />
                 <PortfolioImgWrapper href='/portfolio/portfolio' src='/images/portfolio/personal/personal/final_portfolio.jpg' />
-                <PortfolioImgWrapper href='/portfolio/seta-tei' src='/images/portfolio/personal/seta-tei.jpg' />
-
+                <PortfolioImgWrapper href='/portfolio/seta-tei' src='/images/portfolio/personal/new-setatei.jpg' />
             </div>
 
             <Link href="/portfolio">
