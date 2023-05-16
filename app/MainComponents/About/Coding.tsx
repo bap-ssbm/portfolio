@@ -3,7 +3,7 @@ import { DiReact, DiGitMerge, DiNpm, DiJavascript1, DiNodejsSmall, DiMongodb } f
 import { FiFramer } from 'react-icons/fi'
 
 import CodingItem from './CodingItem'
-import { TbBrandNextjs, TbBrandTypescript,TbBrandTailwind, TbBrandThreejs, TbBrandBootstrap,TbBrandVercel, TbBrandVite } from 'react-icons/tb'
+import { TbBrandNextjs, TbBrandVue, TbBrandTypescript,TbBrandTailwind, TbBrandThreejs, TbBrandBootstrap,TbBrandVercel, TbBrandVite } from 'react-icons/tb'
 interface CodingProps {
 
 }
@@ -26,7 +26,7 @@ const Coding: FC<CodingProps> = ({ }) => {
                 <CodingItem logo={<TbBrandThreejs/>}>ThreeJS/ThreeFiber</CodingItem>
                 <CodingItem logo={<TbBrandBootstrap/>}>Bootstrap</CodingItem>
                 <CodingItem logo={<TbBrandVercel/>}>Vercel</CodingItem>
-                <CodingItem logo={<TbBrandVite/>}>Vite</CodingItem>
+                <CodingItem logo={<TbBrandVue/>}>Vue Js</CodingItem>
             </ul>
         </div>
     )
